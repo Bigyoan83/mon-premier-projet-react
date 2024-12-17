@@ -1,0 +1,26 @@
+.card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    user-select: none;
+    transition: transform 0.3s;
+  }
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+  .color-card {
+    margin: 10px;
+    background-color: #4caf50;
+    padding: 10px;
+    border: solid black 5px;
+  }
