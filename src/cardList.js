@@ -31,7 +31,6 @@ function List () {
                 console.log(matchCardUpdated);
                 console.log("Match carte");
                 setTexte (true)
-
             }
         }
     }
