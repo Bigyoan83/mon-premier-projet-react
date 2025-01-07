@@ -1,6 +1,7 @@
 import React from 'react';
 import List from './cardList.js';
-import './card.css';
+import './style/card.css';
+import './style/App.css';
 
 
 function App() {

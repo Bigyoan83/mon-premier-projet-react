@@ -1,8 +1,8 @@
 .card {
-    width: 100px;
+    width: 80px;
     height: 100px;
     display: flex;
-    background-color: aqua;
+    background-color: rgb(3, 117, 117);
     align-items: center;
     justify-content: center;
     color: white;
@@ -11,16 +11,16 @@
     border-radius: 8px;
     user-select: none;
     transition: transform 0.3s;
-  }
+}
 
 .card-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
 }
 
-  .color-card {
+.color-card {
     margin: 10px;
-    background-color: #4caf50;
-    padding: 10px;
-    border: solid black 5px;
-  }
+    padding: 10px; 
+}
